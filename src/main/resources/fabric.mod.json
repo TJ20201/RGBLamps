@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rgblamps",
+  "version": "${version}",
+  "name": "RGBLamps",
+  "description": "Adds coloured lamps to Minecraft.",
+  "authors": [
+    "TJ20201"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rgblamps/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.tj20201.rgblamps.RGBLamps"
+    ],
+    "client": [
+      "io.github.tj20201.rgblamps.RGBLampsClient"
+    ]
+  },
+  "mixins": [
+    "rgblamps.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "rgblamps:block/colorlamp" },
+    "lit=true": { "model": "rgblamps:block/colorlamp_on" }
+  }
+}
