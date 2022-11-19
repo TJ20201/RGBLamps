@@ -1,7 +1,7 @@
 # RGBLamps
 RGBLamps is a Fabric Minecraft Mod for version 1.19.2.
 
-# Recipes
+## Recipes
 The shapeless recipe for a coloured lamp is:
  - 2 Red dye
  - 2 Green dye
