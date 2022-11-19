@@ -1,5 +1,5 @@
 # RGBLamps
-RGBLamps is a Fabric Minecraft Mod for version 1.19.2.
+RGBLamps is a Fabric Minecraft Mod for version 1.19.2. It adds a singular block: the Colour Lamp. This block is a customisable lamp which has its colour changed by right-clicking it with any of the 16 colour of dyes. The recipe for this block can be seen in the "Recipes" section.
 
 ## Recipes
 The shapeless recipe for a coloured lamp is:
