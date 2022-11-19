@@ -7,7 +7,10 @@
   "authors": [
     "TJ20201"
   ],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/TJ20201/RGBLamps",
+    "issues": "https://github.com/TJ20201/RGBLamps/issues"
+  },
   "license": "MIT",
   "icon": "assets/rgblamps/icon.png",
   "environment": "*",
