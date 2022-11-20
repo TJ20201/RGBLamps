@@ -14,7 +14,7 @@ import net.minecraft.util.registry.Registry;
 
 public class RGBLamps implements ModInitializer {
 
-        public static final Block ColorLamp = new CustomLampBlock();
+    public static final Block ColorLamp = new CustomLampBlock();
 
     @Override
     public void onInitialize() {

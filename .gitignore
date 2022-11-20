@@ -111,8 +111,15 @@ gradle-app.setting
 
 **/build/
 
-# Common working directory
-run/
+# Run folder content
+run/usercache.json
+!run/mods/*.jar
+run/saves/*/playerdata/*
+run/saves/*/advancements/*
+run/saves/*/stats/*
+run/logs/*
+run/crash-reports/*
+run/screenshots/*
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
