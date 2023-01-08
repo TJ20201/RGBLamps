@@ -31,3 +31,7 @@ jobs:
       run: gradle remapJar
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/upload-artifact@v3
+      with:
+        name: RGBLamps_${{ github.sha }}.jar
+        path: build/jars
