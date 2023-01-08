@@ -33,5 +33,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - uses: actions/upload-artifact@v3
       with:
-        name: rgblamps-${{ github.sha }}.jar
-        path: build/jars
+        name: RGBLamps Development Build
+        path: build/jars/rgblamps-${{ github.sha }}.jar
