@@ -21,7 +21,7 @@ import org.jetbrains.annotations.Nullable;
  Contains a custom COLOR property which defines the colour of the lamp. No arguments passed through on creation.
 **/
 @SuppressWarnings("deprecation")
-public class CustomLampBlock extends Block {
+public class CustomLampBlock extends net.minecraft.block.Block {
     /**
      Integer defaulting to 16 which ranges from 1-16 which defines the colour of the Block.
      (1 = RED, 2 = GREEN, 3 = PURPLE, 4 = CYAN, 5 = LIGHT GRAY,
